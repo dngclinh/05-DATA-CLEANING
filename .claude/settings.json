@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/main.py*)",
+      "Bash(pip install*)",
+      "Bash(python -m pip*)",
+      "WebFetch(*)"
+    ],
+    "ask": [
+      "Bash(rm *)",
+      "Bash(Remove-Item *)",
+      "Bash(del *)",
+      "Bash(rmdir *)",
+      "Bash(rd *)"
+    ]
+  }
+}

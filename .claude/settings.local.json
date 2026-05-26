@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python update_contacts.py)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import sys; [print\\(line.encode\\('ascii','replace'\\).decode\\(\\)\\) for line in sys.stdin]\")"
+    ]
+  }
+}
